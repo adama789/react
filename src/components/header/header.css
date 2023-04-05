@@ -136,28 +136,3 @@ form .btn2{
 textarea{
     resize: none;
 }
-
-@media only screen and (max-width: 600px){
-    
-    .header-text{
-        margin-top: 65%;
-        font-size: 20px;
-    }
-
-    .header-text h1{
-        font-size: 40px;
-        margin-top: 20px;
-    }
-
-    .logo{
-        display: none;
-    }
-
-    nav ul li a{
-        margin-right: 20px;
-        color: #f0f0f0;
-        text-decoration: none;
-        font-size: 18px;
-        position: relative;
-    }
-}
