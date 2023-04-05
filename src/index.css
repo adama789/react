@@ -16,4 +16,6 @@ body {
     background-color: #080808;
     color: #f0f0f0;
     height: 100%; /* added */
+    background-image: url(../src/assets/homepage_v1.png);
   }
+
