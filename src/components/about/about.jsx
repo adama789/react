@@ -45,12 +45,14 @@ const About = () => {
                                 <li><span>Javascript</span><br/></li>
                                 <li><span>C++</span><br/></li>
                                 <li><span></span><br/></li>
+                                <li><span></span><br/></li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="Technologies">
                             <ul>
                                 <li><span>Flask</span><br/></li>
                                 <li><span>Django</span><br/></li>
+                                <li><span>React</span><br/></li>
                                 <li><span>HTML</span><br/></li>
                                 <li><span>CSS</span><br/></li>
                             </ul>
@@ -61,6 +63,7 @@ const About = () => {
                                 <li><span>Linux</span><br/></li>
                                 <li><span>Github</span><br/></li>
                                 <li><span>SQLite</span><br/></li>
+                                <li><span></span><br/></li>
                             </ul>
                         </div>
                     </div>
