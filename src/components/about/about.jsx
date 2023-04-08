@@ -19,27 +19,27 @@ const About = () => {
 
   return (
     <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
+    <div className="container">
+        <div className="row">
+            <div className="about-col-1">
                 <img src={ME} alt="logo"/>
             </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About <span>Me</span></h1>
-                        <p class="text">
-                            I specialize in Python <i class="fa-brands fa-python"></i> language and technologies such as Flask and Django. 
+                    <div className="about-col-2">
+                        <h1 className="sub-title">About <span>Me</span></h1>
+                        <p className="text">
+                            I specialize in Python <i className="fa-brands fa-python"></i> language and technologies such as Flask and Django. 
                             <br></br>My passion for programming allows me to constantly expand my qualifications and experience,<br/> 
                             as well as provide innovative solutions. 
                             <br></br>I am committed to creating high-quality, user-friendly applications <br/>that 
                             also deliver solutions for automating business processes. 
                             <br></br>I am ready to work in a dynamic environment and continuously develop my skills.
                         </p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onClick={(event) => opentab(event, 'Languages')}>Languages</p>
-                            <p class="tab-links" onClick={(event) => opentab(event, 'Technologies')}>Technologies</p>
-                            <p class="tab-links" onClick={(event) => opentab(event, 'Aplications')}>Applications</p>
+                        <div className="tab-titles">
+                            <p className="tab-links active-link" onClick={(event) => opentab(event, 'Languages')}>Languages</p>
+                            <p className="tab-links" onClick={(event) => opentab(event, 'Technologies')}>Technologies</p>
+                            <p className="tab-links" onClick={(event) => opentab(event, 'Aplications')}>Applications</p>
                         </div>
-                        <div class="tab-contents active-tab" id="Languages">
+                        <div className="tab-contents active-tab" id="Languages">
                             <ul>
                                 <li><span>Python</span><br/></li>
                                 <li><span>Javascript</span><br/></li>
@@ -47,7 +47,7 @@ const About = () => {
                                 <li><span></span><br/></li>
                             </ul>
                         </div>
-                        <div class="tab-contents" id="Technologies">
+                        <div className="tab-contents" id="Technologies">
                             <ul>
                                 <li><span>Flask</span><br/></li>
                                 <li><span>Django</span><br/></li>
@@ -55,7 +55,7 @@ const About = () => {
                                 <li><span>CSS</span><br/></li>
                             </ul>
                         </div>
-                        <div class="tab-contents" id="Aplications">
+                        <div className="tab-contents" id="Aplications">
                             <ul>
                                 <li><span>Git</span><br/></li>
                                 <li><span>Linux</span><br/></li>
