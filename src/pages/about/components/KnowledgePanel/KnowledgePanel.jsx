@@ -1,5 +1,6 @@
 import React from "react";
 import knowledgeJson from "../../../../content/knowledge.json";
+import "./KnowledgePanel.css";
 
 const KnowledgePanel = () => {
     function openTab(event, tabName){
