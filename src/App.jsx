@@ -1,17 +1,17 @@
 import React from 'react'
-import About from './components/about/about'
-import Contact from './components/contact/contact'
-import Header from './components/header/header'
-import Projects from './components/projects/projects'
+import AboutPage from './pages/about/AboutPage'
+import ContactPage from './pages/contact/ContactPage'
+import HeaderPage from './pages/header/HeaderPage'
+import ProjectsPage from './pages/projects/ProjectsPage'
 
 
 const App = () => {
   return (
     <>
-      <Header />
-      <About />
-      <Projects />
-      <Contact />
+      <HeaderPage />
+      <AboutPage />
+      <ProjectsPage />
+      <ContactPage />
     </>
   )
 }

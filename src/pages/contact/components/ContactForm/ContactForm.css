@@ -1,45 +1,3 @@
-.contact{
-    padding-bottom: 30px;
-    
-}
-
-.contact-left{
-    flex-basis: 35%;
-}
-
-.contact-right{
-    flex-basis: 60%;
-
-}
-
-.contact-left p{
-    margin-top: 30px;
-    color: #ababab;
-    font-family: 'Poppins', sans-serif;
-}
-
-.contact-left p i{
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 20px;
-}
-
-.social-icons{
-    margin-top: 30px
-}
-
-.social-icons a{
-    text-decoration: none;
-    font-size: 27px;
-    margin-right: 15px;
-    color: #f0f0f0;
-    display: inline-block;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover{
-    color: #ff004f;
-}
 
 .btn{
     display: block;
@@ -47,11 +5,11 @@
     width: fit-content;
     border: 1px solid #ff004f;
     padding: 14px 50px;
-    border-radius: 10px; 
+    border-radius: 10px;
     text-decoration: none;
     color: #f0f0f0;
     transition: background 0.4s;
-    
+
 }
 
 .btn.btn2{
