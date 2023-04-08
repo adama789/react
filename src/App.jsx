@@ -1,8 +1,8 @@
 import React from 'react'
-import AboutPage from './pages/about/AboutPage'
-import ContactPage from './pages/contact/ContactPage'
-import HeaderPage from './pages/header/HeaderPage'
-import ProjectsPage from './pages/projects/ProjectsPage'
+import AboutPage from './pages/AboutPage/AboutPage'
+import ContactPage from './pages/ContactPage/ContactPage'
+import HeaderPage from './pages/HeaderPage/HeaderPage'
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
 
 
 const App = () => {
