@@ -6,14 +6,14 @@ import ProjectsPage from './pages/projects/ProjectsPage'
 
 
 const App = () => {
-  return (
-    <>
-      <HeaderPage />
-      <AboutPage />
-      <ProjectsPage />
-      <ContactPage />
-    </>
-  )
+    return (
+        <>
+            <HeaderPage/>
+            <AboutPage/>
+            <ProjectsPage/>
+            <ContactPage/>
+        </>
+    )
 }
 
 export default App

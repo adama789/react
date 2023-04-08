@@ -11,8 +11,8 @@ const ProjectsPage = () => {
             <Title>My <span>Projects</span></Title>
             <div className="services-list">
                 {projects.map((project) => <ProjectCard key={project.name} name={project.name}
-                                                    description={project.description}
-                                                    href={project.href} icon={project.icon}/>)}
+                                                        description={project.description}
+                                                        href={project.href} icon={project.icon}/>)}
             </div>
         </div>
     </div>

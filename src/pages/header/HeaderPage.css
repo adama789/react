@@ -4,55 +4,55 @@
     background-position: center;
 }
 
-.container{
+.container {
     padding: 10px 10%;
 }
 
-.header-text{
+.header-text {
     margin-top: 20%;
     font-size: 30px;
 }
 
-.header-text h1{
+.header-text h1 {
     font-size: 60px;
     margin-top: 20px;
 }
 
-.header-text h1 span{
+.header-text h1 span {
     color: #ff004f;
 }
 
-.social-icons{
+.social-icons {
     margin-top: 30px
 }
 
-.btn{
+.btn {
     display: block;
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff004f;
     padding: 14px 50px;
-    border-radius: 10px; 
+    border-radius: 10px;
     text-decoration: none;
     color: #f0f0f0;
     transition: background 0.4s;
-    
+
 }
 
-.btn.btn2{
+.btn.btn2 {
     display: inline-block;
     background: #ff004f;
 }
 
-.btn:hover{
+.btn:hover {
     background: #ff004f;
 }
 
-.contact-right form{
+.contact-right form {
     width: 100%;
 }
 
-form input, form textarea{
+form input, form textarea {
     width: 100%;
     border: 0;
     outline: none;
@@ -64,13 +64,13 @@ form input, form textarea{
     border-radius: 10px;
 }
 
-form .btn2{
+form .btn2 {
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
 }
 
-textarea{
+textarea {
     resize: none;
 }

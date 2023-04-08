@@ -3,13 +3,13 @@ import knowledgeJson from "../../../../content/knowledge.json";
 import "./KnowledgePanel.css";
 
 const KnowledgePanel = () => {
-    function openTab(event, tabName){
+    function openTab(event, tabName) {
         const tabLinks = document.getElementsByClassName("tab-links");
         const tabContents = document.getElementsByClassName("tab-contents");
-        for(const tabLink of tabLinks){
+        for (const tabLink of tabLinks) {
             tabLink.classList.remove("active-link");
         }
-        for(const tabContent of tabContents){
+        for (const tabContent of tabContents) {
             tabContent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");

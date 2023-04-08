@@ -1,13 +1,13 @@
-.contact{
+.contact {
     padding-bottom: 30px;
-    
+
 }
 
-.contact-left{
+.contact-left {
     flex-basis: 35%;
 }
 
-.contact-right{
+.contact-right {
     flex-basis: 60%;
 
 }
