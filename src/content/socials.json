@@ -1,0 +1,20 @@
+{
+  "socials": [
+    {
+      "href": "https://github.com/adama789",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "href": "https://www.linkedin.com/in/adam-cedro-53427025b/",
+      "icon": "fa-brands fa-linkedin"
+    },
+    {
+      "href": "mailto:cedrq@tlen.pl",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "href": "https://www.facebook.com/adam.cedro.39/",
+      "icon": "fa-brands fa-facebook"
+    }
+  ]
+}

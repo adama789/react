@@ -1,0 +1,20 @@
+{
+  "languages": [
+    "Python",
+    "Javascript",
+    "C++"
+  ],
+  "technologies": [
+    "Flask",
+    "Django",
+    "React",
+    "HTML",
+    "CSS"
+  ],
+  "applications": [
+    "Git",
+    "Linux",
+    "Github",
+    "SQLite"
+  ]
+}
