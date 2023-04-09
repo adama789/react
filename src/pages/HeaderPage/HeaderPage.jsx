@@ -10,8 +10,8 @@ const HeaderPage = () => {
 
     return (
         <div id="header">
-            <NavBar/>
             <div className="container">
+            <NavBar/>
                 <div className="header-text">
                     <p>Software Developer</p>
                     <Title>Hi, I'm <span>Adam Cedro</span></Title>
