@@ -1,20 +1,20 @@
 {
   "projects": [
     {
-      "name": "Projekt 1",
-      "description": "W tym projekcie zrobilem bardzo dobre rzeczy",
+      "name": "Project 1",
+      "description": "Coming soon",
       "href": "#headerPage",
       "icon": "fa-brands fa-python"
     },
     {
-      "name": "Projekt 2",
-      "description": "W tym projekcie zrobilem bardzo dobre rzeczy",
+      "name": "Project 2",
+      "description": "Coming soon",
       "href": "#headerPage",
       "icon": "fa-solid fa-pepper-hot"
     },
     {
-      "name": "Projekt 3",
-      "description": "W tym projekcie zrobilem bardzo dobre rzeczy",
+      "name": "Project 3",
+      "description": "Coming soon",
       "href": "#headerPage",
       "icon": "fa-brands fa-html5"
     }
