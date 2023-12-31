@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.55ad2871.css",
-    "main.js": "/static/js/main.a751a236.js",
+    "main.js": "/static/js/main.87430856.js",
     "static/media/aboutme.png": "/static/media/aboutme.95ebe41aff43d4c6c0d9.png",
     "static/media/homepage_v1.png": "/static/media/homepage_v1.b2a5f890fb94d3d4fd1a.png",
     "static/media/CV_Adam_Cedro.pdf": "/static/media/CV_Adam_Cedro.cf4c4912bfbe1e702475.pdf",
     "index.html": "/index.html",
     "main.55ad2871.css.map": "/static/css/main.55ad2871.css.map",
-    "main.a751a236.js.map": "/static/js/main.a751a236.js.map"
+    "main.87430856.js.map": "/static/js/main.87430856.js.map"
   },
   "entrypoints": [
     "static/css/main.55ad2871.css",
-    "static/js/main.a751a236.js"
+    "static/js/main.87430856.js"
   ]
 }
