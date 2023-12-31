@@ -5,7 +5,7 @@ import CV from "../../assets/CV_Adam_Cedro.pdf";
 
 const NavBar = () => {
     const downloadCV = () => {
-        window.location.href = CV;
+        window.open(CV, "_blank");
     };
 
     return <nav>
