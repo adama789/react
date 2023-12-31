@@ -9,12 +9,12 @@
       "icon": "fa-brands fa-linkedin"
     },
     {
-      "href": "mailto:cedroadam@tlen.pl",
-      "icon": "fa-solid fa-envelope"
+      "href": "https://github.com/adama789/adama789.github.io",
+      "icon": "fas fa-code-branch"
     },
     {
-      "href": "https://www.facebook.com/adam.cedro.39/",
-      "icon": "fa-brands fa-facebook"
+      "href": "mailto:cedroadam@tlen.pl",
+      "icon": "fa-solid fa-envelope"
     }
   ]
 }
