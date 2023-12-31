@@ -13,7 +13,7 @@ const AboutPage = () => {
                         <img src={ME} alt="logo"/>
                     </div>
                     <div className="about-col-2">
-                        <AboutContent/>
+                        <span><AboutContent/></span>
                         <KnowledgePanel/>
                     </div>
                 </div>

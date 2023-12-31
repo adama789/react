@@ -18,23 +18,23 @@ const KnowledgePanel = () => {
 
     return <>
         <div className="tab-titles">
-            <p className="tab-links active-link" onClick={(event) => openTab(event, 'Languages')}>Languages</p>
-            <p className="tab-links" onClick={(event) => openTab(event, 'Technologies')}>Technologies</p>
-            <p className="tab-links" onClick={(event) => openTab(event, 'Aplications')}>Applications</p>
+            <p className="tab-links active-link" onClick={(event) => openTab(event, 'Technologies')}>Technologies</p>
+            <p className="tab-links" onClick={(event) => openTab(event, 'Certifications')}>Certifications</p>
+            <p className="tab-links" onClick={(event) => openTab(event, 'Languages')}>Languages</p>
         </div>
-        <div className="tab-contents active-tab" id="Languages">
+        <div className="tab-contents active-tab" id="Technologies">
             <ul>
-                {knowledgeJson.languages.map((lang) => <li key={lang}><span>{lang}</span></li>)}
+                {knowledgeJson.technologies.map((lang) => <li key={lang}><span>{lang}</span></li>)}
             </ul>
         </div>
-        <div className="tab-contents" id="Technologies">
+        <div className="tab-contents" id="Certifications">
             <ul>
-                {knowledgeJson.technologies.map((tech) => <li key={tech}><span>{tech}</span></li>)}
+                {knowledgeJson.certifications.map((tech) => <li key={tech}><span>{tech}</span></li>)}
             </ul>
         </div>
-        <div className="tab-contents" id="Aplications">
+        <div className="tab-contents" id="Languages">
             <ul>
-                {knowledgeJson.applications.map((app) => <li key={app}><span>{app}</span></li>)}
+                {knowledgeJson.languages.map((app) => <li key={app}><span>{app}</span></li>)}
 
             </ul>
         </div>

@@ -13,7 +13,7 @@ const HeaderPage = () => {
             <div className="container">
             <NavBar/>
                 <div className="header-text">
-                    <p>Software Developer</p>
+                    <p>Penetration Tester</p>
                     <Title>Hi, I'm <span>Adam Cedro</span></Title>
                     <div className="social-icons">
                         {socialIcons.map((socialIcon) => <SocialIcon href={socialIcon.href} icon={socialIcon.icon}/>)}

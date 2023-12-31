@@ -1,19 +1,23 @@
 {
   "languages": [
     "Python",
-    "Javascript",
-    "C++"
-  ],
-  "technologies": [
-    "Django",
-    "React",
+    "C",
+    "C++",
     "HTML",
     "CSS"
   ],
-  "applications": [
-    "Git",
+  "technologies": [
+    "Windows Server",
     "Linux",
-    "Github",
+    "MS Office",
+    "Git",
     "SQL"
+  ],
+  "certifications": [
+    "eJPT - Junior Penetration Tester",
+    "...",
+    "...",
+    "...",
+    "..."
   ]
 }

@@ -4,11 +4,9 @@ const AboutContent = () => {
     return <>
         <h1 className="sub-title">About <span>Me</span></h1>
         <p className="text">
-            <br></br>My passion for programming allows me to constantly expand my qualifications and experience,<br/>
-            as well as provide innovative solutions.
-            <br></br>I am committed to creating high-quality, user-friendly applications <br/>that
-            also deliver solutions for automating business processes.
-            <br></br>I am ready to work in a dynamic environment and continuously develop my skills.
+        As a computer science student deeply passionate about cybersecurity, 
+        <br></br>I actively develop my skills by taking increasingly advanced courses and obtaining certifications.
+        <br></br>I would like to effectively combine gaining professional experience with my current studies.
         </p>
     </>
 }

@@ -18,6 +18,10 @@
     border-radius: 25px;
 }
 
+.about-col-2 span {
+    line-height: 1.3;
+}
+
 .about-col-2 {
     flex-basis: 65%;
 }

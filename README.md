@@ -3,6 +3,9 @@
 ## Build Setup
 
 ```bash
+# build and run
+$ npm run deploy -m ""
+
 # install dependencies
 $ npm install
 
