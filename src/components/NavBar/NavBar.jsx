@@ -4,13 +4,17 @@ import LOGO from "../../assets/logo.png";
 import CV from "../../assets/CV_Adam_Cedro.pdf";
 
 const NavBar = () => {
+    const downloadCV = () => {
+        window.location.href = CV;
+    };
+
     return <nav>
         <img src={LOGO} alt="logo" className="logo"/>
         <ul>
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href={CV}>CV</a></li>
+            <li><a href={downloadCV}>CV</a></li>
         </ul>
     </nav>;
 }
