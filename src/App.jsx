@@ -1,19 +1,29 @@
-import React from 'react'
-import AboutPage from './pages/AboutPage/AboutPage'
-import ContactPage from './pages/ContactPage/ContactPage'
-import HeaderPage from './pages/HeaderPage/HeaderPage'
-import ProjectsPage from './pages/ProjectsPage/ProjectsPage'
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AboutPage from './pages/AboutPage/AboutPage';
+import ContactPage from './pages/ContactPage/ContactPage';
+import HeaderPage from './pages/HeaderPage/HeaderPage';
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
+import Project01 from './pages/ProjectsPage/Projects/Project01';
 
 const App = () => {
-    return (
-        <>
-            <HeaderPage/>
-            <AboutPage/>
-            <ProjectsPage/>
-            <ContactPage/>
-        </>
-    )
-}
+  return (
+    <Router>
+      <>
+        <Routes>
+            <Route path="" element={<div>
+            <HeaderPage />
+            <AboutPage />
+            <ProjectsPage />
+            <ContactPage />
+        </div>} />
 
-export default App
+            <Route path="project/01" element={<Project01/>} />
+        
+        </Routes>
+      </>
+    </Router>
+  );
+};
+
+export default App;

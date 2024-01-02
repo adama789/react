@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "name": "Project 1",
-      "description": "Coming soon",
-      "href": "#headerPage",
+      "name": "Windows Server 2019",
+      "description": "Home lab infrastructure as an administrator",
+      "href": "project/01",
       "icon": "fa-brands fa-python"
     },
     {
