@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.48a11bdd.css",
-    "main.js": "/static/js/main.61b05c8a.js",
+    "main.css": "/static/css/main.e463dbb4.css",
+    "main.js": "/static/js/main.67a6ca1a.js",
     "static/media/aboutme.png": "/static/media/aboutme.95ebe41aff43d4c6c0d9.png",
     "static/media/homepage_v1.png": "/static/media/homepage_v1.b2a5f890fb94d3d4fd1a.png",
     "static/media/CV_Adam_Cedro.pdf": "/static/media/CV_Adam_Cedro.cf4c4912bfbe1e702475.pdf",
     "index.html": "/index.html",
-    "main.48a11bdd.css.map": "/static/css/main.48a11bdd.css.map",
-    "main.61b05c8a.js.map": "/static/js/main.61b05c8a.js.map"
+    "main.e463dbb4.css.map": "/static/css/main.e463dbb4.css.map",
+    "main.67a6ca1a.js.map": "/static/js/main.67a6ca1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.48a11bdd.css",
-    "static/js/main.61b05c8a.js"
+    "static/css/main.e463dbb4.css",
+    "static/js/main.67a6ca1a.js"
   ]
 }
