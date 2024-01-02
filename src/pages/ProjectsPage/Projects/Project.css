@@ -1,85 +1,44 @@
-.container2 {
-  padding: 2rem;
+div.slider {
+    aspect-ratio: 16 / 9;
+    width: 80%;
+    max-width: 75rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 5rem;
 }
 
-.slider-wrapper {
-  position: relative;
-  max-width: 48rem;
-  margin: 0 auto;
+div.slider__images {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    transition: ease-out 0.75s margin-left;
+    z-index: 1;
 }
 
-.slider {
-  display: flex;
-  aspect-ratio: 16 / 9;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 30px;
+div.slider__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1rem;
+    z-index: 2;
 }
 
-.slider img {
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
+div.slider__nav div {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 100%;
+    background-color: gray;
+    transition: 0.2s background-color;
 }
 
-.slider-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  color: #fff;
-  cursor: pointer;
+div.slider__nav div.active {
+    background-color: red;
 }
-
-.slider-arrow.left {
-  left: 1rem;
-}
-
-.slider-arrow.right {
-  right: 1rem;
-}
-
-.slider-nav {
-  display: flex;
-  column-gap: 1rem;
-  position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-
-.slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #fff;
-  opacity: 0.55;
-  transition: opacity ease 250ms;
-}
-
-.slider-nav a:hover {
-  opacity: 0.9;
-}
-
-.slider-nav a.active {
-  background-color: #ff004f;
-}
-
-.slider-nav a.active:hover {
-  opacity: 1;
-}
-
-.header {
-  text-align: center;
-  word-wrap: break-word;
-  max-width: 400px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-}
-
