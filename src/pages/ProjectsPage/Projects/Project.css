@@ -18,6 +18,10 @@ div.slider__images {
     z-index: 1;
 }
 
+div.slider__images img {
+  min-width: 100%;
+}
+
 div.slider__nav {
     display: flex;
     justify-content: center;
