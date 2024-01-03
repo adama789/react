@@ -49,7 +49,6 @@ div.slider__nav div.active {
 
 div.text {
     margin-top: 60px;
-    text-align: justify;
     overflow-wrap: break-word;
     margin-left: 20%;
     margin-right: 20%;
@@ -68,4 +67,27 @@ div.text h1 {
 
 div.text h1 span {
     color: #ff004f;
+    
+}
+
+div.header {
+    text-align: center;    
+}
+
+div spaan {
+    color: #ff004f;
+}
+
+div.text p{
+    text-align: justify;
+}
+
+div li {
+    list-style-position: inside;
+    display: block;
+    color: #f0f0f0dc;
+}
+
+div spaaan {
+    color:#ff004f;
 }
