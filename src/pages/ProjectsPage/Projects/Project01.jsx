@@ -21,7 +21,7 @@ const Project01 = () => {
         >
           <img
             id="slide-1"
-            src="https://media.licdn.com/dms/image/D4D03AQGzovpJ8c6AQQ/profile-displayphoto-shrink_200_200/0/1702823925582?e=1709769600&v=beta&t=qovwfZl5i1BDnpkS88ingTwYNbVQzITL2W5NSd-6CW8"
+            src="https://images.unsplash.com/photo-1512810730836-1a7cde39c455?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <img
@@ -31,7 +31,7 @@ const Project01 = () => {
           />
           <img
             id="slide-3"
-            src="https://www.glamour.pl/media/cache/default_view/uploads/media/default/0005/72/kim-jest-masny-ben.jpeg"
+            src="https://media.licdn.com/dms/image/D4D03AQGzovpJ8c6AQQ/profile-displayphoto-shrink_200_200/0/1702823925582?e=1709769600&v=beta&t=qovwfZl5i1BDnpkS88ingTwYNbVQzITL2W5NSd-6CW8"
             alt=""
           />
         </div>
@@ -50,11 +50,12 @@ const Project01 = () => {
           ></div>
         </div>
       </div>
-      <div className="header">
-        <h1>Windows Server 2019</h1>
-      </div>
-      <div>
-        <p>Lorem</p>
+      <div className="text">
+        <div className="header">
+          <h1>Internal Windows Server <span>Infrastructure</span></h1>
+          <br></br>
+          <p>AlgoDebug powstał jako praca magisterska mojego znajomego, mgr. inż. Marcina Wojdata, absolwenta Uniwersytetu Mikołaja Kopernika w Toruniu. Razem z Kołem Naukowym Informatyków postanowiliśmy rozbudować ten projekt, dostrzegając w nim duży potencjał. Dzięki naszej determinacji i gotowości do działania udało nam się stworzyć kompletny projekt pod kierunkiem Marcina. Moją rolą było zaangażowanie w budowę frontendu, a także sporadyczne zajrzenie w obszar backendu.</p>
+        </div>
       </div>
     </section>
   );

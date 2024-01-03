@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage/ContactPage';

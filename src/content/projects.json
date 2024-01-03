@@ -4,13 +4,13 @@
       "name": "Windows Server 2019",
       "description": "Home lab infrastructure as an administrator",
       "href": "project/01",
-      "icon": "fa-brands fa-python"
+      "icon": "fa fa-windows"
     },
     {
       "name": "Project 2",
       "description": "Coming soon",
       "href": "#headerPage",
-      "icon": "fa-solid fa-pepper-hot"
+      "icon": "fa-brands fa-python"
     },
     {
       "name": "Project 3",

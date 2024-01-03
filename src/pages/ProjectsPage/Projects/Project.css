@@ -46,3 +46,26 @@ div.slider__nav div {
 div.slider__nav div.active {
     background-color: #ff004f;
 }
+
+div.text {
+    margin-top: 60px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    line-height: 1.8rem;
+    font-weight: 600;
+    color: #ababab;
+}
+
+div.text h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+div.text h1 span {
+    color: #ff004f;
+}

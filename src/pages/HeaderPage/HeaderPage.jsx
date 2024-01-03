@@ -12,7 +12,7 @@ const HeaderPage = () => {
         <div id="header">
             <div className="container">
             <NavBar/>
-                <div className="header-text">
+                <div className="header-text animate__animated animate__lightSpeedInLeft animate__slow">
                     <p>Penetration Tester</p>
                     <Title>Hi, I'm <span>Adam Cedro</span></Title>
                     <div className="social-icons">

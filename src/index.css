@@ -19,6 +19,10 @@ body {
     background-image: url(../src/assets/homepage_v1.png);
 }
 
+::selection {
+    background: #ff004cb0;
+}
+
 @media only screen and (max-width: 600px) {
 
     .header-text {
