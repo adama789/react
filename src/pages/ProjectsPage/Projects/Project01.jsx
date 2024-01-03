@@ -97,7 +97,7 @@ A virtual <spaan>iSCSI</spaan> disk was configured along with an initiator for e
 
 The Windows Server Update Service <spaan>(WSUS)</spaan> was synchronized to manage updates across the servers effectively.
 
-<spaan>Printers</spaan> got enabled within the network as well.
+<spaan> Printers</spaan> got enabled within the network as well.
 
 <spaan> FTP</spaan> services were configured with a focus on security, allowing selected users to connect locally, enhancing file transfer capabilities.
 
