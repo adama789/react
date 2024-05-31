@@ -16,7 +16,9 @@
 .about-col-2 .text {
     font-size: 18px;
     padding: 5px 0;
-    color: #ababab;
+    font-weight: 600;
+    color: #d1d1d1;
+    line-height: 2rem;
     margin-bottom: 25px;
 }
 
@@ -44,7 +46,7 @@
 
 .tab-contents ul li span {
     color: #b54769;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.5s;
 }
 

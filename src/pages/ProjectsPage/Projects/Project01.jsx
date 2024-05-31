@@ -1,10 +1,16 @@
 import React, { useState } from "react";
 import "./Project.css";
-import IMG0 from './assets/img0.jpg';
+import IMG0 from './assets/img0.png';
 import IMG1 from './assets/img1.png';
-import IMG2 from './assets/img2.PNG';
-import IMG3 from './assets/img3.PNG';
-import IMG4 from './assets/img4.PNG';
+import IMG2 from './assets/img2.png';
+import IMG3 from './assets/img3.png';
+import IMG4 from './assets/img4.png';
+import IMG5 from './assets/img5.png';
+import IMG6 from './assets/img6.png';
+import ICON0 from './assets/cs-icon.png';
+import ICON1 from './assets/postgresql-icon.png';
+import ICON2 from './assets/blazor-icon.png';
+import ICON3 from './assets/dotnet-icon.png';
 
 
 
@@ -51,6 +57,16 @@ const Project01 = () => {
             src={IMG4}
             alt=""
           />
+          <img
+            id="slide-5"
+            src={IMG5}
+            alt=""
+          />
+           <img
+            id="slide-5"
+            src={IMG6}
+            alt=""
+          />
         </div>
         <div className="slider__nav">
           <div
@@ -73,37 +89,36 @@ const Project01 = () => {
             className={activeSlide === 5 ? "active" : ""}
             onClick={(e) => handleSlideClick(5, e)}
           ></div>
+          <div
+            className={activeSlide === 6 ? "active" : ""}
+            onClick={(e) => handleSlideClick(6, e)}
+          ></div>
+          <div
+            className={activeSlide === 7 ? "active" : ""}
+            onClick={(e) => handleSlideClick(7, e)}
+          ></div>
         </div>
       </div>
       <div className="text">
         <div className="header">
-          <h1>Internal Windows Server <span>Infrastructure</span></h1>
-          <br></br>
-          <span>In this project, I set up a virtualized environment using <spaan>VirtualBox</spaan>. Within this network, I installed several servers:
-          <br></br><br></br><li>WIN-SERVER-01 DC</li>
-          <li>WIN-SERVER-02 DC</li>
-          <li>WIN-SERVER-03 RODC</li>
-          <li>WIN-SERVER-01 CD</li>
-          <li>WIN-SERVER-FS</li>
-          <li>WIN-SERVER-iSCSI</li>
-          <li>WIN-SERVER-WSUS</li>
-          <li>WIN-SERVER-FTP</li><br></br></span> <p>
+          <h1>Hotel Reservation <span>System</span></h1>
 
-To establish a solid network, I configured <spaan>Active Directory</spaan> Domain Services and set up <spaan>DNS</spaan>, ensuring seamless communication among the servers. Additionally, I implemented a <spaan>firewall</spaan> to enhance network security.
-Further more, I added users to different domains, ensuring a structured and organized user management system.
-
-A File Server with <spaan>SMB</spaan> functionality was created, featuring a share at <spaan>\WIN-SERVER-FS\IT</spaan>, designated for a group of users. 
-A virtual <spaan>iSCSI</spaan> disk was configured along with an initiator for efficient data storage.
-
-The Windows Server Update Service <spaan>(WSUS)</spaan> was synchronized to manage updates across the servers effectively.
-
-<spaan> Printers</spaan> got enabled within the network as well.
-
-<spaan> FTP</spaan> services were configured with a focus on security, allowing selected users to connect locally, enhancing file transfer capabilities.
-
-Finally, I familiarized myself with <spaan>Hyper-V</spaan>, broadening my knowledge of virtualization technologies.</p>
+          <p>The <spaan>Hotel Reserve</spaan> is a web application designed to manage hotel bookings.
+          It allows users to search for available rooms, make reservations and manage their bookings.
+          Hotel administrators can manage room availability, view reservations, and perform other administrative tasks.
+          Hotel Reserve is a project created as part of the Programming III course at the university.</p>
+        </div>
+        <div className="technologies">
+          <img src={ICON0} alt=""></img>
+          <img src={ICON1} alt=""></img>
+          <a className="icon-social" href="https://github.com/adama789/Hotel-Reservation-System" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <img src={ICON2} alt=""></img>
+          <img src={ICON3} alt=""></img>
         </div>
       </div>
+      
     </section>
   );
 };

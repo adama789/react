@@ -18,6 +18,10 @@
     margin-top: 20px;
 }
 
+.header-text p {
+    color: #91a0aa;
+}
+
 .header-text h1 span {
     color: #ff004f;
 }

@@ -13,7 +13,7 @@ const HeaderPage = () => {
             <div className="container">
             <NavBar/>
                 <div className="header-text animate__animated animate__lightSpeedInLeft animate__slow">
-                    <p>Penetration Tester</p>
+                    <p>Computer Science</p>
                     <Title>Hi, I'm <span>Adam Cedro</span></Title>
                     <div className="social-icons">
                         {socialIcons.map((socialIcon) => <SocialIcon href={socialIcon.href} icon={socialIcon.icon}/>)}
