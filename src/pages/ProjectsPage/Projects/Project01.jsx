@@ -111,7 +111,7 @@ const Project01 = () => {
         <div className="technologies">
           <img src={ICON0} alt=""></img>
           <img src={ICON1} alt=""></img>
-          <a className="icon-social" href="https://github.com/adama789/Hotel-Reservation-System" target="_blank" rel="noopener noreferrer">
+          <a className="icon-social" href="https://github.com/adama789/HotelReserve" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-github"></i>
           </a>
           <img src={ICON2} alt=""></img>
